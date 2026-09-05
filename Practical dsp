@@ -1,0 +1,20 @@
+# Practical 1: Student Data System
+
+# Input-Output
+name = input("Enter Name: ")
+roll = input("Enter Roll No: ")
+age = int(input("Enter Age: "))
+cgpa = float(input("Enter CGPA: "))
+
+# Different Data Types
+is_present = True  # Boolean
+subjects = ["Python", "Maths", "DS"] # List
+
+# Output
+print("\n--- Student Details ---")
+print("Name:", name, " Type:", type(name))
+print("Roll No:", roll)
+print("Age:", age, " Type:", type(age))
+print("CGPA:", cgpa, " Type:", type(cgpa))
+print("Present:", is_present, " Type:", type(is_present))
+print("Subjects:", subjects, " Type:", type(subjects))
