@@ -1,5 +1,3 @@
-# Practical 1: Student Data System
-
 # Input-Output
 name = input("Enter Name: ")
 roll = input("Enter Roll No: ")
